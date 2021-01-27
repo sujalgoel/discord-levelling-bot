@@ -1,0 +1,5 @@
+package-lock.json
+node_modules/
+json.sqlite
+botsettings.json
+fonts/

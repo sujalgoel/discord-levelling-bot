@@ -1,0 +1,31 @@
+{
+  "name": "discord-levelling-bot",
+  "version": "1.0.0",
+  "description": "A Discord levelling Bot to increase server activity (maybe)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujalgoel/discord-levelling-bot.git"
+  },
+  "author": "Sujal Goel",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sujalgoel/discord-levelling-bot/issues"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "colorthief": "^2.3.2",
+    "node-fetch": "^2.6.1",
+    "quick.db": "^7.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
