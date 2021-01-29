@@ -36,6 +36,10 @@ $ npm run start
 4. Now run [`start.bat`](https://github.com/sujalgoel/discord-levelling-bot/blob/master/start.bat) to start the application!
 5. Go to your Discord and test your bot.
 
+## Thanks to these wonderful people
+🍴 [![Forkers repo roster for @sujalgoel/discord-levelling-bot](https://reporoster.com/forks/sujalgoel/discord-levelling-bot)](https://github.com/sujalgoel/discord-levelling-bot/network/members)
+🌟 [![Stargazers repo roster for @sujalgoel/discord-levelling-bot](https://reporoster.com/stars/sujalgoel/discord-levelling-bot)](https://github.com/sujalgoel/discord-levelling-bot/stargazers)
+
 ## Further Support
 
 <a href="https://discord.gg/devs"><img src="https://invidget.switchblade.xyz/devs"/></a>
