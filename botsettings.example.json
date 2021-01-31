@@ -3,6 +3,8 @@
     "prefix": "YOUR_DISCORD_BOT_PREFIX",
     "dev1": "YOUR_DISCORD_ID",
     "logs": "A_LOG_CHANNEL",
-    "checkemoji": "CHECK_MARK_EMOJI", // https://cdn.discordapp.com/emojis/798519537565696000.gif?v=1
-    "wrongemoji": "WRONG_EMOJI" // https://cdn.discordapp.com/emojis/798518925608222779.gif?v=1
+    "checkemoji": "CHECK_MARK_EMOJI", 
+    "wrongemoji": "WRONG_EMOJI"
+    "__checkemoji__": "https://cdn.discordapp.com/emojis/798519537565696000.gif?v=1"
+    "__wrongemoji__": "https://cdn.discordapp.com/emojis/798518925608222779.gif?v=1"
 }
