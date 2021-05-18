@@ -31,7 +31,7 @@ module.exports.run = async (bot, message, args) => {
 		const every = db.all().filter(i => i.ID.startsWith('messages_')).sort((a, b) => b.data - a.data);
 		const rank = every.map(x => x.ID).indexOf(`messages_${message.guild.id}_${user.id}`) + 1;
 		const neededxp = UserLvl * UserLvl * 100;
-		const url = `https://rank-card.sujalgoel.repl.co/?rank=${encodeURIComponent(rank)}&level=${encodeURIComponent(UserLvl)}&username=${encodeURIComponent(user.username)}&avatar=${encodeURIComponent(user.displayAvatarURL({ format: 'png' }))}&tag=${encodeURIComponent(user.tag)}&status=${encodeURIComponent(user.presence.status)}&color=${encodeURIComponent(color)}&currentxp=${encodeURIComponent(GuildXP)}&neededxp=${encodeURIComponent(neededxp)}`;
+		const url = `https://fun-api.sujalgoel.ml/rank-card/?rank=${encodeURIComponent(rank)}&level=${encodeURIComponent(UserLvl)}&username=${encodeURIComponent(user.username)}&avatar=${encodeURIComponent(user.displayAvatarURL({ format: 'png' }))}&tag=${encodeURIComponent(user.tag)}&status=${encodeURIComponent(user.presence.status)}&color=${encodeURIComponent(color)}&currentxp=${encodeURIComponent(GuildXP)}&neededxp=${encodeURIComponent(neededxp)}`;
 		fetch(url)
 			.then(res => res.json())
 			.then((res) => {
